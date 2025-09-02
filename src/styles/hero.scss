@@ -1,29 +1,30 @@
 .hero {
-    padding: 5rem 0;
-    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
 
-    @media (min-width: $mobile) {
-        padding: 6rem 0;
-        margin-bottom: 7rem;
+    &__inner {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
     }
 
     &__title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        line-height: 1.2;
 
-        @media (min-width: $mobile) {
-            font-size: 5rem;
+        .hero__name {
+            color: #3b82f6; // A nice blue (you can change to your brand color)
         }
     }
 
-    &__text {
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-
-        @media (min-width: $mobile) {
-            font-size: 3rem;
-        }
+    &__subtitle {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #666;
     }
 }

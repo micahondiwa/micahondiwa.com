@@ -1,1 +1,1 @@
-export type { Post, PostFrontmatter } from "./Post"
+// export type { Post, PostFrontmatter } from "./Post"

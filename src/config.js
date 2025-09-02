@@ -1,11 +1,11 @@
 export default {
-    title: `Aaron Dunphy | Software Developer`,
-    description: `Software Developer based in Leigh-on-Sea, Essex.`,
+    title: `Micah Ondiwa | ML/AI Software Engineer`,
+    description: `Full-Stack ML/AI Software Engineer based in Nairobi, Kenya`,
     author: {
-        name: 'Aaron Dunphy',
-        summary: 'Software Developer',
+        name: 'Micah Ondiwa',
+        summary: 'ML/AI Software Engineer',
     },
     social: {
-        twitter: 'aarondunphy',
+        twitter: 'micahondiwa',
     },
 }

@@ -1,13 +1,15 @@
-@import "./tools/media-query.scss";
+// Import tools & variables as usable values
+@use "./tools/media-query.scss" as *;
+@use "./global.scss" as *;
 
-@import "./global.scss";
+// Import component styles (raw CSS/SCSS, not variables)
 @import "./hero.scss";
 @import "./about.scss";
 @import "./tech-skills.scss";
 @import "./footer.scss";
 @import "./header.scss";
 @import "./logo.scss";
-@import "./navigation.scss";
+@import "./navigate.scss";
 @import "./blogCard.scss";
 @import "./posts.scss";
 @import "./blog.scss";

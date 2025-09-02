@@ -1,27 +1,30 @@
 import React from "react"
 import Layout from "../src/components/layout"
 import Seo from "../src/components/seo"
+import Footer from "@/components/footer"
 
 const Index = () => {
     return (
         <Layout>
             <Seo
-                title="Home | Front End Developer based in Leigh-on-Sea, Essex"
-                description="Front End Developer based in Leigh-on-Sea, Essex"
+                title="Micah Ondiwa"
+                description="Python Full-Stack ML Software Engineer based in Nairobi, Kenya"
             />
-            <div className="container">
-                <div className="hero">
-                    <h2 className="hero__title">
-                        Hey, I&apos;m Aaron{" "}
+            <section className="hero container mx-auto py-8">
+                <div className="hero__inner text-center">
+                    <h1 className="hero__title text-5xl font-bold mb-1">
+                        Hello, I’m <span className="hero__name text-indigo-600">Micah Ondiwa</span>{" "}
                         <span role="img" aria-label="wave">
                             👋
                         </span>
-                    </h2>
-                    <h1 className="hero__text">
-                        Front End Developer based in Leigh-on-Sea, UK
                     </h1>
+                    <p className="hero__subtitle text-xl text-gray-700">
+                        Python Full Stack (Django + React) ML/AI Software Engineer with over 5 years experience based in Nairobi, Kenya. <br />I love memes.
+                    </p>
+                    {<Footer />}
                 </div>
-            </div>
+
+            </section>
         </Layout>
     )
 }

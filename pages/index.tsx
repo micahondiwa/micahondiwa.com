@@ -19,7 +19,7 @@ const Index = () => {
                         </span>
                     </h1>
                     <p className="hero__subtitle text-xl text-gray-700">
-                        Python Full Stack (Django + React) ML/AI Software Engineer with over 5 years experience based in Nairobi, Kenya. <br />I love memes.
+                        Python Full Stack (Django + React) ML/AI Software Engineer based in Nairobi, Kenya. <br />I love memes.
                     </p>
                     {<Footer />}
                 </div>

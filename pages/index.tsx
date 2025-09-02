@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../src/components/layout"
 import Seo from "../src/components/seo"
 import Footer from "@/components/footer"
+import Projects from "@/components/Projects"
 
 const Index = () => {
     return (
@@ -21,6 +22,7 @@ const Index = () => {
                     <p className="hero__subtitle text-xl text-gray-700">
                         Python Full Stack (Django + React) ML/AI Software Engineer based in Nairobi, Kenya. <br />I love memes.
                     </p>
+                    {<Projects />}
                     {<Footer />}
                 </div>
 

@@ -22,6 +22,11 @@ export default function SEO({ description, title }: Props) {
             <meta property="twitter:creator" content={config.social.twitter} />
             <meta property="twitter:title" content={title} />
             <meta property="twitter:description" content={description} />
+            <link rel="icon" href="/images/favicon.png" type="image/png" sizes="32x32" />
+            <link rel="icon" href="/images/favicon.png" type="image/png" sizes="16x16" />
+            <link rel="apple-touch-icon" href="/images/favicon.png" />
+
+
         </Head>
     )
 }

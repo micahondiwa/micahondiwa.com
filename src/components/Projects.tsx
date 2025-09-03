@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
             status: 'completed',
             technologies: ['Django', 'React', 'DRF', 'Keras'],
             githubUrl: 'https://github.com/micahondiwa/stock-prediction-portal',
-            demoUrl: 'https://github.com/micahondiwa/stock-prediction-portal'
+            demoUrl: 'https://micahondiwa/stock-prediction-portal'
         },
         {
             id: 2,

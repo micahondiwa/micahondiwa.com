@@ -113,7 +113,7 @@ const Footer = () => (
 
             </ul>
             <p className="footer__copyright text-center mt-4">
-                &copy; Micah Ondiwa {new Date().getFullYear()}
+                &copy; {new Date().getFullYear()} Micah Ondiwa, All Rights Reserved.
             </p>
         </div>
     </footer>

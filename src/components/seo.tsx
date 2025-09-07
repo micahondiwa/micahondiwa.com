@@ -25,8 +25,6 @@ export default function SEO({ description, title }: Props) {
             <link rel="icon" href="/images/favicon.png" type="image/png" sizes="32x32" />
             <link rel="icon" href="/images/favicon.png" type="image/png" sizes="16x16" />
             <link rel="apple-touch-icon" href="/images/favicon.png" />
-
-
         </Head>
     )
 }

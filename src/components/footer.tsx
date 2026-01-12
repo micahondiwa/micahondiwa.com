@@ -16,10 +16,10 @@ const Footer = () => (
 
                 <li>
                     <a
-                        href="https://drive.google.com/file/d/1J_qfyGeOhmJPCycbt3-ANrUBeZn9aJer/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1an05YwLN722VkufkexqFyLyyV4lLWBbf/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
-                        title="Download CV"
+                        title="CV"
                         className="footer__social-list-icon no-underline hover:no-underline"
                         style={{ textDecoration: "none" }}
                     >

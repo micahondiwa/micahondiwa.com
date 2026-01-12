@@ -20,7 +20,7 @@ const Index = () => {
                         </span>
                     </h1>
                     <p className="hero__subtitle text-xl text-gray-700">
-                        A Python Full Stack (Django + React) ML/AI Software Engineer based in Nairobi, Kenya.
+                        Backend-focused Software Engineer with experience building scalable data pipelines, ML-enabled systems, and analytics platforms in production environments. Strong background in financial engineering, risk modeling, and applied machine learnin
                     </p>
                     {<Projects />}
                     {<Footer />}

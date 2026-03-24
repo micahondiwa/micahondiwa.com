@@ -1,8 +1,8 @@
 import React from "react"
 import Layout from "../src/components/layout"
 import Seo from "../src/components/seo"
-import Footer from "@/components/footer"
-import Projects from "@/components/Projects"
+import Footer from "../src/components/footer"
+import Projects from "../src/components/Projects"
 
 const Index = () => {
     return (

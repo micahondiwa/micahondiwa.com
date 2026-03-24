@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../src/components/layout"
 import Seo from "../src/components/seo"
-import Footer from "../src/components/footer"
+import Footer from "../src/components/Footer"
 import Projects from "../src/components/Projects"
 
 const Index = () => {

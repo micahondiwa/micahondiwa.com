@@ -1,28 +1,122 @@
-import { SOCIALS } from '../constants';
+import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faHackerrank } from "@fortawesome/free-brands-svg-icons"
+import { faGraduationCap, faPenNib } from "@fortawesome/free-solid-svg-icons"
+import {
+    faGithub,
+    faLinkedin,
+    faStackOverflow,
+    faXTwitter,
+} from "@fortawesome/free-brands-svg-icons"
 
-export const Footer = () => (
-  <footer className="py-20 px-6 border-t border-neutral-100">
-    <div className="max-w-7xl mx-auto">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-12 mb-20">
-        <div className="text-2xl font-serif font-black tracking-tighter">MO.</div>
-        <div className="flex flex-wrap justify-center gap-10">
-          {SOCIALS.map(social => (
-            <a 
-              key={social.name} 
-              href={social.url} 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[10px] font-black uppercase tracking-[0.2em] text-neutral-400 hover:text-neutral-900 transition-colors"
-            >
-              {social.name}
-            </a>
-          ))}
+const Footer = () => (
+    <footer className="footer">
+        <div className="container">
+            <ul className="footer__social-list flex gap-4 justify-center">
+
+                <li>
+                    <a
+                        href="https://drive.google.com/file/d/1J_qfyGeOhmJPCycbt3-ANrUBeZn9aJer/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Download CV"
+                        className="footer__social-list-icon no-underline hover:no-underline"
+                        style={{ textDecoration: "none" }}
+                    >
+                        CV
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://github.com/micahondiwa"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="GitHub"
+                        className="footer__social-list-icon"
+                    >
+                        <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/micahondiwa/"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="LinkedIn"
+                        className="footer__social-list-icon"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://x.com/micahondiwa"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="X"
+                        className="footer__social-list-icon"
+                    >
+                        <FontAwesomeIcon icon={faXTwitter} />
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://stackoverflow.com/users/15467774/micahondiwa"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Stack Overflow"
+                        className="footer__social-list-icon"
+                    >
+                        <FontAwesomeIcon icon={faStackOverflow} />
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.hackerrank.com/profile/micahondiwa"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="HackerRank"
+                        className="footer__social-list-icon"
+                    >
+                        <FontAwesomeIcon icon={faHackerrank} />
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://surl.li/orlzun"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Google Scholar"
+                        className="footer__social-list-icon"
+                    >
+                        <FontAwesomeIcon icon={faGraduationCap} />
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://micahondiwa.hashnode.dev/"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Blog (Hashnode)"
+                        className="footer__social-list-icon"
+                    >
+                        <FontAwesomeIcon icon={faPenNib} />
+                    </a>
+                </li>
+
+            </ul>
+            <p className="footer__copyright text-center mt-4">
+                &copy; {new Date().getFullYear()} Micah Ondiwa, All Rights Reserved.
+            </p>
         </div>
-      </div>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-12 border-t border-neutral-50">
-        <p className="text-neutral-400 text-[10px] font-bold uppercase tracking-widest">© 2026 Micah Ondiwa. All Rights Reserved.</p>
-        <p className="text-neutral-400 text-[10px] font-bold uppercase tracking-widest">Built with React + Tailwind + Express</p>
-      </div>
-    </div>
-  </footer>
-);
+    </footer>
+)
+
+export default Footer
